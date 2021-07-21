@@ -5,7 +5,10 @@ public class BST {
 	public static void main(String[] args) {
 		int [] num = {56,30,70};
 		Node root = null;
-		
+		for(int number :num) {
+			System.out.println(number);
+			root = insertNode(root, number);
+		}
 		
 	}
 
