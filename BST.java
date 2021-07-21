@@ -24,5 +24,15 @@ public class BST {
 		return root;
 	}
 	
-	
+	public boolean searchElement(Node root, int element) {
+		if(root == null) {
+			return false;
+		}
+		if(element < root.data) {
+			return searchElement(root.left, element);
+		}
+		else {
+			return searchElement(root.right, element);
+		}
+	}
 }
