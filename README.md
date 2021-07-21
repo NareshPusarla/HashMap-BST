@@ -1,1 +1,1 @@
-# HashMap-BST
+# HashTable-BST
